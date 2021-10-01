@@ -1,4 +1,4 @@
-package org.rapturemain.tcpmessengermessageframework.message.messages;
+package org.rapturemain.tcpmessengermessageframework.message.messages.system;
 
 public class ConnectionResetMessage implements SystemMessage<ConnectionResetMessage> {
 

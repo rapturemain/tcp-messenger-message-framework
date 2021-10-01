@@ -1,11 +1,10 @@
-package org.rapturemain.tcpmessengermessageframework.message.messages.request;
+package org.rapturemain.tcpmessengermessageframework.message.messages.system;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.rapturemain.tcpmessengermessageframework.message.base.StringEntry;
-import org.rapturemain.tcpmessengermessageframework.message.messages.SystemMessage;
 
 @Data
 @Builder

@@ -1,4 +1,4 @@
-package org.rapturemain.tcpmessengermessageframework.message.messages;
+package org.rapturemain.tcpmessengermessageframework.message.messages.chat;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

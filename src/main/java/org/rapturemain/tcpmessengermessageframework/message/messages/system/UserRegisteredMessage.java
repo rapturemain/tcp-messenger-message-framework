@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import org.rapturemain.tcpmessengermessageframework.message.base.StringEntry;
 import org.rapturemain.tcpmessengermessageframework.message.base.TimestampEntry;
 import org.rapturemain.tcpmessengermessageframework.message.messages.MessageWithTimestamp;
-import org.rapturemain.tcpmessengermessageframework.message.messages.SystemMessage;
 
 @Data
 @AllArgsConstructor

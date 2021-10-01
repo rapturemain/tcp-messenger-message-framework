@@ -1,6 +1,4 @@
-package org.rapturemain.tcpmessengermessageframework.message.messages.request;
-
-import org.rapturemain.tcpmessengermessageframework.message.messages.SystemMessage;
+package org.rapturemain.tcpmessengermessageframework.message.messages.system;
 
 public class PingRequest implements SystemMessage<PingRequest> {
 

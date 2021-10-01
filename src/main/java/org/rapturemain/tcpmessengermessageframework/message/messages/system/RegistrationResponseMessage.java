@@ -1,4 +1,4 @@
-package org.rapturemain.tcpmessengermessageframework.message.messages.response;
+package org.rapturemain.tcpmessengermessageframework.message.messages.system;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,7 +8,6 @@ import org.rapturemain.tcpmessengermessageframework.message.base.BooleanEntry;
 import org.rapturemain.tcpmessengermessageframework.message.base.StringEntry;
 import org.rapturemain.tcpmessengermessageframework.message.base.TimestampEntry;
 import org.rapturemain.tcpmessengermessageframework.message.messages.MessageWithTimestamp;
-import org.rapturemain.tcpmessengermessageframework.message.messages.SystemMessage;
 
 @Data
 @Builder

@@ -1,18 +1,11 @@
 package org.rapturemain.tcpmessengermessageframework.message;
 
-import org.rapturemain.tcpmessengermessageframework.message.messages.ConnectionResetMessage;
-import org.rapturemain.tcpmessengermessageframework.message.messages.FileChatMessage;
-import org.rapturemain.tcpmessengermessageframework.message.messages.Message;
-import org.rapturemain.tcpmessengermessageframework.message.messages.SimpleChatMessage;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.rapturemain.tcpmessengermessageframework.message.messages.request.PingRequest;
-import org.rapturemain.tcpmessengermessageframework.message.messages.request.RegistrationRequestMessage;
-import org.rapturemain.tcpmessengermessageframework.message.messages.response.PingResponse;
-import org.rapturemain.tcpmessengermessageframework.message.messages.response.RegistrationResponseMessage;
-import org.rapturemain.tcpmessengermessageframework.message.messages.system.UserConnectedMessage;
-import org.rapturemain.tcpmessengermessageframework.message.messages.system.UserDisconnectedMessage;
-import org.rapturemain.tcpmessengermessageframework.message.messages.system.UserRegisteredMessage;
+import org.rapturemain.tcpmessengermessageframework.message.messages.Message;
+import org.rapturemain.tcpmessengermessageframework.message.messages.chat.FileChatMessage;
+import org.rapturemain.tcpmessengermessageframework.message.messages.chat.SimpleChatMessage;
+import org.rapturemain.tcpmessengermessageframework.message.messages.system.*;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
