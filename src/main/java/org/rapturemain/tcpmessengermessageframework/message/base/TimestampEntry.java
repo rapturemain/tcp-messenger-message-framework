@@ -9,6 +9,11 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+/**
+ * ENCODING
+ * <br>
+ * | byte8x | - unix timestamp
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

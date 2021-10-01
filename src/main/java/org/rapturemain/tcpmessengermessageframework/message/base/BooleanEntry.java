@@ -9,6 +9,11 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+/**
+ * ENCODING
+ * <br>
+ * | byte | - boolean. 1 if true and 0 if false
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

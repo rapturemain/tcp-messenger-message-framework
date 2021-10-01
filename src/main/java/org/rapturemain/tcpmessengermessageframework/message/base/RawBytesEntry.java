@@ -9,6 +9,13 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+/**
+ * ENCODING
+ * <br>
+ * | byte4x | - size of an byte array
+ * <br>
+ * | byte[] | - data array
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

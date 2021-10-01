@@ -9,6 +9,19 @@ import java.io.IOException;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 
+/**
+ * Interface of every message
+ * <br>
+ * ENCODING:
+ * <br>
+ * | byte4x | - entry id of an message
+ * <br>
+ * N Base Entries going next (depends on the message)
+ * <br>
+ * | byte | - boolean if null true (1) else false (0)
+ * <br>
+ * | [base entry] | - exits, if previous byte is false (0)
+ */
 public interface Message<T extends Message<T>> {
 
     int getEntryId();

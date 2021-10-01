@@ -9,6 +9,15 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+/**
+ * ENCODING
+ * <br>
+ * | byte2x | - size of an byte array
+ * <br>
+ * | byte[] | - String encoded by modified UTF-8 encoding
+ * <br>
+ * @see <a href="https://docs.oracle.com/javase/7/docs/api/java/io/DataInput.html#modified-utf-8">Modified UTF-8</a>
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
