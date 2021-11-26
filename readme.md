@@ -32,6 +32,8 @@ public class SimpleChatMessage implements ChatMessage<SimpleChatMessage> {
 ```
 | { byte count } | - { purpose }
 
+| byte4x | - length of the message (without this 4 bytes)
+
 | byte4x | - entry id (message identifier)
 
 |  byte  | - is next item null

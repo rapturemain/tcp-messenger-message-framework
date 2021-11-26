@@ -7,9 +7,8 @@ import org.rapturemain.tcpmessengermessageframework.message.messages.chat.FileCh
 import org.rapturemain.tcpmessengermessageframework.message.messages.chat.SimpleChatMessage;
 import org.rapturemain.tcpmessengermessageframework.message.messages.system.*;
 
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
+import java.io.*;
+import java.nio.ByteBuffer;
 
 public interface MessageEncoderDecoder {
     Class<?>[] messages = {
@@ -29,4 +28,11 @@ public interface MessageEncoderDecoder {
 
     @Nullable
     Message<?> decode(@NotNull DataInputStream dataInputStream) throws IOException;
+
+    @Nullable
+    Message<?> decode(byte[] bytes) throws IOException;
+
+    boolean canBeDecoded(byte[] bytes, @NotNull ByteBuffer byteBuffer);
+
+    byte[] merge(byte[] bytes, @NotNull ByteBuffer byteBuffer);
 }
